@@ -1,0 +1,341 @@
+/* CSS Default */
+*{margin: 0; padding: 0; outline: 0;}
+	body,html{width: 100%;}
+.full_content{width: 100%;}
+.content{width: 960px; margin: 0 auto;}
+	a{text-decoration: none;}
+	img{max-width: 100%;}
+.fix{overflow: hidden}
+.fleft{float: left;}
+.fright{float: right;}
+
+/* 
+-------------------------------
+Start Fixed Social Media CSS
+-------------------------------
+*/
+.fixed_social {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	background: #e3e3e3;
+	padding: 7px;
+	border-radius: 5px 0 0 5px;
+}
+.fixed_social a{}
+.fixed_social a img {
+	width: 50px;
+	margin: 3px;
+	cursor: pointer;
+}
+
+
+/* 
+-------------------------------
+Start Header CSS
+-------------------------------
+*/
+
+.header{
+	background: #ACE04A;
+	padding: 10px;
+	height: 100px;
+}
+.headerb{}
+.header_left img{
+	width: 100px;
+	margin-right: 20px;
+}
+.header_middle{
+	margin-right: 20px;
+}
+.header_middle h2{
+	font-size: 35px;
+	color: #fff;
+}
+.header_middle p{
+	font-size: 22px;
+	color: blue;
+}
+.Header_right ul li{
+	font-size: 35px;
+	color: white;
+	cursor: pointer;
+	float: left;
+	Margin-left: 15px;
+	list-style-type: none;
+}
+/* 
+-------------------------------
+End Header CSS
+-------------------------------
+*/
+
+/* 
+-------------------------------
+Start Menu CSS
+-------------------------------
+*/
+.menu{
+	background: green;
+	padding: 10px;
+}
+.menu nav ul{
+	list-style-type: none;
+}
+.menu nav ul li{
+	float: left;
+	margin-left: 15px;
+	background: #444;
+	width: 100px;
+	padding: 8px;
+	text-align: center;
+	border-radius: 3px;
+}
+.menu nav ul li a{
+	font-size: 18px;
+	color: #fff;
+}
+.menu nav ul li a:hover{
+	color: #000;
+}
+.menu nav ul li:hover{
+	color: #000;
+	background: #fff;
+}
+/* 
+-------------------------------
+End Menu CSS
+-------------------------------
+*/
+
+/* 
+-------------------------------
+Start slider CSS
+-------------------------------
+*/
+.slider img{
+	width:960px;
+	height:450px;
+	}
+/* 
+-------------------------------
+End slider CSS
+-------------------------------
+*/
+
+/* 
+-------------------------------
+Start Main Content CSS
+-------------------------------
+*/
+.main_content{}
+.content h1{
+	text-align: center;
+	background: #ACE04A;
+	margin-bottom: 3px;
+}
+.left_content{
+	width: 645px;
+	border-bottom: 2px solid red;
+}
+.cont{
+	padding: 5px;
+}
+.cont h2{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	background: #999;
+}
+.cont img{
+	width: 300px;
+	padding-right: 5px;
+	height: 200px;
+	float: left;
+}
+.cont span p{
+	text-align: justify;
+
+}
+.Sidebar{
+	width: 300px;
+	background: #999;
+	margin-top: 5px;
+	
+}
+.sidebar1{
+	background:#fff;
+	width:255px;
+	height: 55px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px;
+}
+.sidebar1 h2{
+	
+	margin-bottom: 8px;
+	padding-left: 3px;
+}
+.sidebar2{
+	width: 270px;
+	background: #fff;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 5px;
+	overflow: scroll;
+	height: 540px;
+	
+}
+.sidebar2 h2{
+	padding: 5px;
+	padding-left: 10px;
+}
+.sidebar2 h3{
+	padding: 5px;
+	padding-left: 10px;
+}
+.sidebar2 ul{
+	padding-left:20px;
+	
+}
+.sidebar2 ul li{
+	list-style-type: none;
+}
+.contact p{
+	margin: 10px;
+}
+.contact h2{
+	margin: 10px;
+}
+input[type="text"]{
+	padding: 5px;
+	border-radius: 2px;
+    border: 1px solid #16de25;
+}
+input[type="submit"]{
+    margin-left: 70px;
+    padding: 8px 18px;
+    background: #0c0;
+    border-radius: 5px;
+    border: none;
+	cursor: pointer;
+	color: #fff;
+}
+input[type="submit"]:hover{
+	background: #10b310;
+}
+/*
+-------------------------------
+End Main COntent CSS
+-------------------------------
+*/
+
+/*
+-------------------------------
+Start About Section CSS
+-------------------------------
+*/
+.about_us{
+	margin-top: 10px;
+}
+.admin{
+	width: 300px;
+}
+.admin h2 {
+	/* text-transform: uppercase; */
+	font-family: Edwardian Script ITC;
+	font-size: 35px;
+	color: #c00dc6;
+	text-align: center;
+	margin-top: 12px;
+}
+.admin img {
+	width: 220px;
+	height: 160px;
+	margin-left: 45px;
+	border: 1px solid #ae15d9;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+.admin p {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	/* font-family: arial; */
+}
+.description {
+	width: 550px;
+	background: #485148;
+	padding: 20px 50px;
+	color: #fff;
+	border-radius: 5px;
+}
+.description h2 {
+	font-size: 35px;
+	margin-bottom: 11px;
+}
+.description ul{}
+.description ul li {
+	color: #05ff4f;
+	font-size: 16px;
+}
+.description ul li a{
+	font-family: arial;
+	color: #fff;
+	line-height: 26px;
+}
+/*
+-------------------------------
+End About Section CSS
+-------------------------------
+*/
+
+/*
+-------------------------------
+Start Footer Section CSS
+-------------------------------
+*/
+.footer{
+	background: #2452aa;
+	padding: 10px 30px;
+	margin-top: 10px;
+}
+.footer_left{}
+.footer_left p {
+	color: #fff;
+	font-family: arial;
+	margin-bottom: 20px;
+	margin-left: 28px;
+}
+.footer_left ul{}
+.footer_left ul li{
+	float: left;
+	list-style: none;
+	margin-left: 29px;
+	color: #fff;
+}
+.footer_left ul li:hover{
+	color: red;
+	cursor: pointer;
+}
+.Social_icon{}
+.Social_icon a{}
+.Social_icon a i {
+	font-size: 30px;
+	margin-left: 2px;
+	background: #00237B;
+	padding: 3px 8px;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #fff;
+}
+.Social_icon a i:hover{
+	background: #fff;
+	color: #2452AA;
+}
+/*
+-------------------------------
+end Footer Section CSS
+-------------------------------
+*/

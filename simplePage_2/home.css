@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0; outline:0;}
+.wrap{
+		background-image: url(Images/Pic_01.jpg);
+		width: 1350px;
+		height: 650px;
+		margin: 20px;
+		background-size: cover;
+	
+	}
+.header{
+		width: 600px;
+		height: 500px;
+        font-size: 15px;
+        background: none;
+        float: left;
+        margin-top: 20px;
+        margin-right: 5px;
+        
+	}
+.header a img{
+		margin-right: 30px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+}
+.header	h1{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.header p{
+	margin-left: 10px;
+}

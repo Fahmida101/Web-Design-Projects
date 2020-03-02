@@ -1,0 +1,118 @@
+*{margin: 0; padding: 0; outline:0;}
+	.wrap{width: 1300px; 
+		  height: 800px; 
+		  background-color: #8B94CA;
+		  margin: 0 auto;
+		  }
+	.header{width: 1300px;
+			height: 50px; 
+			background-color: #8B94CA;
+			text-align: center;
+			border-radius: 10px;
+			padding: 10px 0;
+			}
+	.full_width{}
+	.width{
+		background-color: none;
+		width: 1150px;
+		height: 60px;
+		padding-left: 100px;
+		}
+	.nav{
+		}
+	.nav ul{}
+	.nav ul li{
+		list-style: none;
+		float: left;
+		position: relative; 
+		font-size: 20px;
+	}
+	.nav ul li a{
+		text-decoration: none;
+		background: #7CB8E0;
+		padding: 8px 15px;
+		display: block;
+		transition: .3s;
+		border-bottom: 2px solid #000;
+		width: 180px;
+		height: 40px;
+		
+	}
+	.nav ul li a:hover{
+		background: white;
+	}
+    .nav ul li ul{
+		position: absolute;
+		left: -9999px;
+	}
+	.nav ul li:hover ul{
+		left: 0px;
+	}
+	.nav ul li ul li{
+		position: relative;
+	}
+	.nav ul li ul li a{}
+
+	.nav ul li ul li ul{
+		position: absolute;
+		top: -9999px;
+	}
+	.nav ul li ul li:hover ul{
+		top: 0px;
+		left: 210px;	
+    }
+	.nav ul li ul li ul li{
+		border-left: 2px solid #000;
+	}
+	.nav ul li ul li ul li a{}
+	.main_content{width: 1300px; 
+				  height: 400px; 
+				  background-color: #8B94CA;
+				  border-radius: 10px;
+				 
+				 }
+	.content{width: 800px; 
+			 height: 350px; 
+			 background-color:#7DCB3D; 
+			 float: left;
+			 border-radius: 5px;
+			 padding: 20px;
+			 
+			}
+	.content p{
+				margin:0 20px;
+				font-size: 160%;
+			  }		
+	.content h2{
+				margin: 20px;
+	}		
+	.side_bar{width: 350px; 
+			  height: 355px; 
+			  background-color:#7DCB3D; 
+			  float: right;
+			  border-radius: 5px;
+			  padding: 15px 30px;
+			 }
+	.side_bar h2{
+				 margin: 20px;
+	            }
+	.side_bar h3{
+				margin: 20px;
+		}				
+	.about_us{width: 1250px; 
+			  height: 100px; 
+			  background-color:none;
+			  border-radius: 10px;
+			  padding: 20px 25px;
+			  font-size: 160%;
+			  text-align: center;
+			  
+			 }
+	.footer{width: 1250px; 
+			height: 100px; 
+			background-color:none;
+			border-radius: 10px;
+			padding: 20px 25px;
+			font-size: 160%;
+			text-align: center;
+		   }

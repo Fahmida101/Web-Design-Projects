@@ -1,0 +1,499 @@
+/* CSS Default */
+*{margin: 0; padding: 0; outline: 0;}
+	body,html{width: 100%;}
+.full_content{width: 100%;}
+.content{width: 1000px; margin: 0 auto;}
+	a{text-decoration: none;}
+	img{max-width: 100%;}
+.fix{overflow: hidden}
+.fleft{float: left;}
+.fright{float: right;}
+/* 
+-------------------------------
+Start Header CSS
+-------------------------------
+*/
+
+.header{
+	background: #fff;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	padding: 15px;
+	height: 110px;
+	width: 960px;
+}
+.header_left{
+	width: 320px;
+	background: #fff;
+	
+	}
+.header_left h1{
+	color: #000;
+	margin-top: 27px; 
+}
+.header_left p{
+	color: #000;
+	font-size: 18px;
+	margin-top: 7px;
+}
+.Header_right{
+	background: darkRed;
+	padding: 5px;
+	width: 575px;
+	margin-top: 32px;
+	border-radius: 5px;
+}
+.Header_right nav ul{
+	list-style-type: none;
+}
+.Header_right nav ul li a{
+	float: left;
+	margin-left: 10px;
+	
+	padding: 8px;
+	text-align: center;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 15px;
+}
+.Header_right nav ul li a:hover{
+	color: gray;
+	cursor: pointer;
+	
+}
+/* 
+-------------------------------
+End Header CSS
+-------------------------------
+*/
+
+/* 
+-------------------------------
+Start Slider CSS
+-------------------------------
+*/
+.slider{
+	background: #fff;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	padding: 15px;
+	height: 520px;
+	width: 960px;
+}
+.paragraph{
+	height: 100px;
+	margin-top:40px;
+}
+.paragraph p{
+	text-align: center;
+	font-size: 25px;
+}
+/* 
+-------------------------------
+End Slider CSS
+-------------------------------
+*/
+/* 
+-------------------------------
+Start main COntent CSS
+-------------------------------
+*/
+/* 
+-------------------------------
+Start COntent one CSS
+-------------------------------
+*/
+.cont1{
+	width: 960px;
+	height: 230px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	padding: 15px;
+	background: #fff;
+	padding-top: 45px;
+}
+.heading1{
+	background: darkRed;
+	color: #fff;
+	width:150px;
+	border-radius: 5px;
+	position: absolute;
+	margin-top: -15px;
+	margin-left: 33%;
+	padding: 3px;
+}
+.cont1_left{
+	width: 310px;
+	
+}
+.cont1_left h3{
+	display: inline;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 25px;
+	
+}
+.cont1_left p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cont1_left img{
+	width: 120px;
+	height: 80px;
+}
+.cont1_left a{
+	color: darkRed;
+	margin-top: 10px;
+}
+
+.cont1_middle{
+	width: 310px;
+	margin-left: 10px;
+}
+.cont1_middle h3{
+    display: inline;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 25px;
+}
+.cont1_middle p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cont1_middle img{
+	width: 120px;
+	height: 80px;
+}
+.cont1_middle a{
+	color: darkRed;
+	margin-top: 10px;
+}
+
+.cont1_right{
+	width: 310px;
+	margin-left: 10px;
+}
+.cont1_right h3{
+	display: inline;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 25px;
+}
+.cont1_right p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cont1_right img{
+	width: 120px;
+	height: 80px;
+}
+.cont1_right a{
+	color: darkRed;
+}
+/* 
+-------------------------------
+End Content one CSS
+-------------------------------
+*/
+/* 
+-------------------------------
+Start Content two CSS
+-------------------------------
+*/
+.cont2{
+	width: 960px;
+	height: 370px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	padding: 15px;
+	background: #fff;
+	padding-top: 45px;
+}
+.heading2{
+	background: darkRed;
+	color: #fff;
+	width:150px;
+	border-radius: 5px;
+	position: absolute;
+	margin-top: -15px;
+	margin-left: 33%;
+	padding: 3px;
+	text-align: center;
+}
+.first_cont2{
+	width: 180px;
+	margin-left: 5px;
+}
+.first_cont2 img{
+	height: 200px;
+}
+.first_cont2 p{
+	margin-top:12px;
+}
+.description1 p{
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+.first_cont2 a{
+	color: darkRed;
+}
+
+.second_cont2{
+	width: 180px;
+	margin-left: 12px;
+}
+.second_cont2 img{
+	height: 200px;
+}
+.second_cont2 p{
+	margin-top:12px;
+}
+.description2 p{
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+.second_cont2 a{
+	color: darkRed;
+}
+
+.third_cont2{
+	width: 180px;
+	margin-left: 12px;
+}
+.third_cont2 img{
+	height: 200px;
+}
+.third_cont2 p{
+	margin-top:12px;
+}
+.description3 p{
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+.third_cont2 a{
+	color: darkRed;
+}
+
+.fourth_cont2{
+	width: 180px;
+	margin-left: 12px;
+}
+.fourth_cont2 img{
+	height: 200px;
+}
+.fourth_cont2 p{
+	margin-top:12px;
+}
+.description4 p{
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+.fourth_cont2 a{
+	color: darkRed;
+}
+
+.fifth_cont2{
+	width: 180px;
+	margin-left: 10px;
+}
+.fifth_cont2 img{
+	height: 200px;
+}
+.fifth_cont2 p{
+	margin-top:12px;
+}
+.description5 p{
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+.fifth_cont2 a{
+	color: darkRed;
+}
+/* 
+-------------------------------
+End Content two CSS
+-------------------------------
+*/
+/* 
+-------------------------------
+Start Content three CSS
+-------------------------------
+*/
+.cont3{
+	width: 960px;
+	height: 200px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	padding: 15px;
+	background: #fff;
+	padding-top: 45px;
+}
+.heading3{
+	background: darkRed;
+	color: #fff;
+	width:150px;
+	border-radius: 5px;
+	position: absolute;
+	margin-top: -15px;
+	margin-left: 33%;
+	padding: 3px;
+	text-align: center;
+}
+.cont3_left{
+	margin-right: 15px;
+}
+.cont3_middle{
+	margin-left: 15px;
+}
+.cont3_right{
+	
+}
+/* 
+-------------------------------
+End Content three CSS
+-------------------------------
+*/
+/* 
+-------------------------------
+End main COntent CSS
+-------------------------------
+*/
+/*
+-------------------------------
+Start About Section CSS
+-------------------------------
+*/
+.about_us{
+	width: 960px;
+	height: 320px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	padding: 15px;
+	background: gray;
+	padding-top: 45px;
+}
+.AboutUs_1{
+	width: 480px;
+}
+.AboutUs_1 h3{
+	margin-bottom: 25px;
+}
+.upper{
+	margin-bottom: 30px;
+	width: 480px;
+}
+.upper img{
+	width: 95px;
+	height: 95px;
+	float: left;
+	padding-right: 10px;
+}
+.upper h3{
+	display: inline;
+	color: darkRed;
+}
+.upper span p{
+	text-align: justify;
+	margin-top: 10px;
+	
+}
+.lower{
+	width: 480px;
+}
+.lower img{
+	width: 95px;
+	height: 95px;
+	float: left;
+	padding-right: 10px;
+}
+.lower h3{
+	display: inline;
+	color: darkRed;
+}
+.lower span p{
+	text-align: justify;
+	margin-top: 10px;
+}
+.AboutUs_2{
+	width: 220px;
+	margin-left: 20px;
+}
+.AboutUs_2 h3{
+	
+}
+.AboutUs_2 p{
+	margin-top: 25px;
+}
+
+
+.AboutUs_3{
+	width: 210px;
+	margin-left: 20px;
+}
+.AboutUs_3 h3{
+	margin-bottom: 25px;
+}
+input[type="text"],
+input[type="email"]{
+	height: 30px;
+	width: 200px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 5px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus{
+	border: 1px solid #000;
+}
+textarea{
+	height: 80px;
+	width: 200px;
+	padding: 5px;
+	border-radius: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+ input[type="submit"]{
+	height: 40px;
+	width: 120px;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	background: darkRed;
+}
+input[type="submit"]:hover{
+	background: #fff;
+	border: 1px solid #000;
+	color: #000;
+	font-size: 25px;
+	box-shadow: 4px 4px 5px #000;
+}
+/*
+-------------------------------
+End About Section CSS
+-------------------------------
+*/
+/*
+-------------------------------
+Start Footer Section CSS
+-------------------------------
+*/
+.footer{
+	width: 960px;
+	height: 35px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	padding: 15px;
+	background: gray;
+	padding-top: 35px;
+}
+/*
+-------------------------------
+End Footer Section CSS
+-------------------------------
+*/
